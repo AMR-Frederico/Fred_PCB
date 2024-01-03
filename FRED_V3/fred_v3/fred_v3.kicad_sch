@@ -1,0 +1,48 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid 210292b2-d6ba-424c-bd40-e4a2be18eb8d)
+
+  (paper "A4")
+
+  (lib_symbols
+  )
+
+
+  (sheet (at 68.58 68.58) (size 58.42 49.53) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 0e3fc8cf-969d-492f-823d-ed0765038f7e)
+    (property "Sheetname" "Lógica" (at 68.58 67.8684 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "Lógica.kicad_sch" (at 68.58 118.6946 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "fred_v3"
+        (path "/210292b2-d6ba-424c-bd40-e4a2be18eb8d" (page "2"))
+      )
+    )
+  )
+
+  (sheet (at 147.32 68.58) (size 59.69 49.53) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid b54a5b77-6097-4562-9836-27b2c01ae506)
+    (property "Sheetname" "Potência" (at 147.32 67.8684 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "Potência.kicad_sch" (at 147.32 118.6946 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "fred_v3"
+        (path "/210292b2-d6ba-424c-bd40-e4a2be18eb8d" (page "3"))
+      )
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)
