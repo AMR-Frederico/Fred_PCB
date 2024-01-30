@@ -374,6 +374,46 @@
     [
       "1be44197-4572-42d4-a61c-4b6497d58203",
       "SN65HVD230_3"
+    ],
+    [
+      "1f51abab-264b-467c-bacd-a2396a60d8b6",
+      "Motors_Front"
+    ],
+    [
+      "e2cd467c-70f1-48ce-b8c1-db1b74e6bb23",
+      "Motors_Back"
+    ],
+    [
+      "b72e0df5-9304-4238-a2dd-a9844fa728bc",
+      "Isolamento1"
+    ],
+    [
+      "adca1cc5-72c1-43d7-a97f-3dcb9c778c38",
+      "POWER_POT"
+    ],
+    [
+      "3fb4cca4-2c3e-40cc-b324-3ffce5ba92a1",
+      "Sensor_Corrente1"
+    ],
+    [
+      "47a38a86-8e1b-4981-8bf5-38659ead4b87",
+      "Sensor_Corrente2"
+    ],
+    [
+      "6820f1dc-6663-4847-9554-2c03e27087c0",
+      "Sensor_Corrente3"
+    ],
+    [
+      "30a10606-328f-499c-a4d2-54ff2312d532",
+      "Sensor_Corrente4"
+    ],
+    [
+      "db610fff-2ae9-48d7-9d4d-0ea6a754abd2",
+      "Isolamento2"
+    ],
+    [
+      "e820c621-0b33-479a-8ebb-222682e77b1f",
+      "ENCODER"
     ]
   ],
   "text_variables": {}
