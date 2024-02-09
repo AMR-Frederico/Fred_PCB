@@ -34,9 +34,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.762,
-          "height": 1.524,
-          "width": 1.524
+          "drill": 0.0,
+          "height": 2.5,
+          "width": 2.5
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -177,7 +177,8 @@
         0.25,
         0.5,
         0.7,
-        1.0
+        1.0,
+        3.0
       ],
       "via_dimensions": [
         {
@@ -446,7 +447,7 @@
       "idf": "",
       "netlist": "",
       "specctra_dsn": "",
-      "step": "fred_v3.step",
+      "step": "fred_v3_POTENCIA.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""
@@ -503,8 +504,8 @@
       "Esp_1"
     ],
     [
-      "2d8ba9f8-39ef-41b1-a16e-af014527e417",
-      "Esp_2"
+      "45ab7ba7-f648-461a-af8a-e80d64d591b7",
+      "SN65HVD230_4"
     ],
     [
       "cb2022f3-76dc-4488-87ab-d14263ff5040",
@@ -515,8 +516,8 @@
       "SN65HVD230_1"
     ],
     [
-      "bacc7c6b-e1f9-4864-989a-583c1b66a339",
-      "SN65HVD230_2"
+      "be7485f6-c8fe-4548-b12d-298da0774271",
+      "Esp_3"
     ],
     [
       "c174aa10-0cd9-4bfa-92c8-213bce70e792",
@@ -539,28 +540,12 @@
       "SN65HVD230_3"
     ],
     [
-      "1f51abab-264b-467c-bacd-a2396a60d8b6",
-      "Motors_Front"
-    ],
-    [
       "e2cd467c-70f1-48ce-b8c1-db1b74e6bb23",
       "Motors_Back"
     ],
     [
-      "b72e0df5-9304-4238-a2dd-a9844fa728bc",
-      "Isolamento1"
-    ],
-    [
       "adca1cc5-72c1-43d7-a97f-3dcb9c778c38",
       "POWER_POT"
-    ],
-    [
-      "3fb4cca4-2c3e-40cc-b324-3ffce5ba92a1",
-      "Sensor_Corrente1"
-    ],
-    [
-      "47a38a86-8e1b-4981-8bf5-38659ead4b87",
-      "Sensor_Corrente2"
     ],
     [
       "6820f1dc-6663-4847-9554-2c03e27087c0",
@@ -575,8 +560,8 @@
       "Isolamento2"
     ],
     [
-      "e820c621-0b33-479a-8ebb-222682e77b1f",
-      "ENCODER"
+      "5cdf7880-e3fa-482c-80b2-fdd5eafd5cc8",
+      "ENCODER_LEFT"
     ]
   ],
   "text_variables": {}

@@ -510,6 +510,9 @@
   (junction (at 83.82 134.62) (diameter 0) (color 0 0 0 0)
     (uuid 7f074ea4-c607-47cf-b8ed-c2c137eb2e1e)
   )
+  (junction (at 135.89 63.5) (diameter 0) (color 0 0 0 0)
+    (uuid ab624578-c87a-43f2-ae22-f4dbf8ada008)
+  )
   (junction (at 223.52 30.48) (diameter 0) (color 0 0 0 0)
     (uuid ab8d86f5-d826-4c3a-85f5-27b15b036c32)
   )
@@ -771,6 +774,10 @@
     (stroke (width 0) (type default))
     (uuid b87fae07-25bd-4b2c-8318-caa475d4ab82)
   )
+  (wire (pts (xy 138.43 63.5) (xy 135.89 63.5))
+    (stroke (width 0) (type default))
+    (uuid bd31d814-db88-40ca-ac34-7b501921263b)
+  )
   (wire (pts (xy 227.33 66.04) (xy 237.49 66.04))
     (stroke (width 0) (type default))
     (uuid c21b76e1-4cd0-4f5b-9788-b64b4aedc2f4)
@@ -779,7 +786,7 @@
     (stroke (width 0) (type default))
     (uuid c3e36b5a-5f6f-4d5d-b207-0ac1441d713b)
   )
-  (wire (pts (xy 135.89 60.96) (xy 135.89 69.85))
+  (wire (pts (xy 135.89 60.96) (xy 135.89 63.5))
     (stroke (width 0) (type default))
     (uuid c843a224-7461-4c5b-8555-7e17af92baf9)
   )
@@ -810,6 +817,10 @@
   (wire (pts (xy 232.41 50.8) (xy 232.41 44.45))
     (stroke (width 0) (type default))
     (uuid e997d5c5-1356-4c50-8a48-c694e2e7f20e)
+  )
+  (wire (pts (xy 135.89 63.5) (xy 135.89 69.85))
+    (stroke (width 0) (type default))
+    (uuid eadd85a6-d657-442c-9c71-def8b66efd81)
   )
   (wire (pts (xy 63.5 69.85) (xy 66.04 69.85))
     (stroke (width 0) (type default))
@@ -959,6 +970,10 @@
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 5b2c0712-0cb8-4f9b-9571-05cbc030b68f)
   )
+  (hierarchical_label "EXT_5V_3" (shape input) (at 138.43 63.5 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid 696d7c9f-55ad-4827-a139-e8b2f4012608)
+  )
   (hierarchical_label "MOTORS_12V" (shape input) (at 199.39 57.15 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 98009cca-3201-4373-b909-8cce14b12444)
@@ -1013,9 +1028,6 @@
     (pin "3" (uuid d503ed94-0efd-41f8-a549-1b876b809385))
     (instances
       (project "fred_v3"
-        (path "/210292b2-d6ba-424c-bd40-e4a2be18eb8d/b54a5b77-6097-4562-9836-27b2c01ae506/1f51abab-264b-467c-bacd-a2396a60d8b6"
-          (reference "Q9") (unit 1)
-        )
         (path "/210292b2-d6ba-424c-bd40-e4a2be18eb8d/b54a5b77-6097-4562-9836-27b2c01ae506/e2cd467c-70f1-48ce-b8c1-db1b74e6bb23"
           (reference "Q11") (unit 1)
         )
@@ -1042,9 +1054,6 @@
     (pin "2" (uuid e1559e17-3f12-4a53-8837-954e4397a177))
     (instances
       (project "fred_v3"
-        (path "/210292b2-d6ba-424c-bd40-e4a2be18eb8d/b54a5b77-6097-4562-9836-27b2c01ae506/1f51abab-264b-467c-bacd-a2396a60d8b6"
-          (reference "R47") (unit 1)
-        )
         (path "/210292b2-d6ba-424c-bd40-e4a2be18eb8d/b54a5b77-6097-4562-9836-27b2c01ae506/e2cd467c-70f1-48ce-b8c1-db1b74e6bb23"
           (reference "R59") (unit 1)
         )
@@ -1105,9 +1114,6 @@
         (path "/210292b2-d6ba-424c-bd40-e4a2be18eb8d/b54a5b77-6097-4562-9836-27b2c01ae506"
           (reference "U17") (unit 1)
         )
-        (path "/210292b2-d6ba-424c-bd40-e4a2be18eb8d/b54a5b77-6097-4562-9836-27b2c01ae506/1f51abab-264b-467c-bacd-a2396a60d8b6"
-          (reference "U17") (unit 1)
-        )
         (path "/210292b2-d6ba-424c-bd40-e4a2be18eb8d/b54a5b77-6097-4562-9836-27b2c01ae506/e2cd467c-70f1-48ce-b8c1-db1b74e6bb23"
           (reference "U19") (unit 1)
         )
@@ -1134,9 +1140,6 @@
     (pin "2" (uuid 1467bb9b-f67d-4a53-87ce-48a48fccd55e))
     (instances
       (project "fred_v3"
-        (path "/210292b2-d6ba-424c-bd40-e4a2be18eb8d/b54a5b77-6097-4562-9836-27b2c01ae506/1f51abab-264b-467c-bacd-a2396a60d8b6"
-          (reference "R52") (unit 1)
-        )
         (path "/210292b2-d6ba-424c-bd40-e4a2be18eb8d/b54a5b77-6097-4562-9836-27b2c01ae506/e2cd467c-70f1-48ce-b8c1-db1b74e6bb23"
           (reference "R67") (unit 1)
         )
@@ -1153,7 +1156,7 @@
     (property "Value" "470uF" (at 100.33 43.18 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" (at 107.6452 44.45 0)
+    (property "Footprint" "Capacitor_THT:C_Radial_D10.0mm_H20.0mm_P5.00mm" (at 107.6452 44.45 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 106.68 40.64 0)
@@ -1163,9 +1166,6 @@
     (pin "2" (uuid deb661b2-90a5-41a4-a1da-d9de3dc504dd))
     (instances
       (project "fred_v3"
-        (path "/210292b2-d6ba-424c-bd40-e4a2be18eb8d/b54a5b77-6097-4562-9836-27b2c01ae506/1f51abab-264b-467c-bacd-a2396a60d8b6"
-          (reference "C43") (unit 1)
-        )
         (path "/210292b2-d6ba-424c-bd40-e4a2be18eb8d/b54a5b77-6097-4562-9836-27b2c01ae506/e2cd467c-70f1-48ce-b8c1-db1b74e6bb23"
           (reference "C49") (unit 1)
         )
@@ -1192,9 +1192,6 @@
     (pin "2" (uuid 8469a612-8912-4bb1-87a8-e4708daedd70))
     (instances
       (project "fred_v3"
-        (path "/210292b2-d6ba-424c-bd40-e4a2be18eb8d/b54a5b77-6097-4562-9836-27b2c01ae506/1f51abab-264b-467c-bacd-a2396a60d8b6"
-          (reference "R54") (unit 1)
-        )
         (path "/210292b2-d6ba-424c-bd40-e4a2be18eb8d/b54a5b77-6097-4562-9836-27b2c01ae506/e2cd467c-70f1-48ce-b8c1-db1b74e6bb23"
           (reference "R70") (unit 1)
         )
@@ -1231,9 +1228,6 @@
     (pin "3" (uuid c641c75d-bcdd-4288-bab2-13a49ebbd868))
     (instances
       (project "fred_v3"
-        (path "/210292b2-d6ba-424c-bd40-e4a2be18eb8d/b54a5b77-6097-4562-9836-27b2c01ae506/1f51abab-264b-467c-bacd-a2396a60d8b6"
-          (reference "Q8") (unit 1)
-        )
         (path "/210292b2-d6ba-424c-bd40-e4a2be18eb8d/b54a5b77-6097-4562-9836-27b2c01ae506/e2cd467c-70f1-48ce-b8c1-db1b74e6bb23"
           (reference "Q10") (unit 1)
         )
@@ -1260,9 +1254,6 @@
     (pin "2" (uuid c37d0e83-c234-4360-a970-ab450653df86))
     (instances
       (project "fred_v3"
-        (path "/210292b2-d6ba-424c-bd40-e4a2be18eb8d/b54a5b77-6097-4562-9836-27b2c01ae506/1f51abab-264b-467c-bacd-a2396a60d8b6"
-          (reference "R58") (unit 1)
-        )
         (path "/210292b2-d6ba-424c-bd40-e4a2be18eb8d/b54a5b77-6097-4562-9836-27b2c01ae506/e2cd467c-70f1-48ce-b8c1-db1b74e6bb23"
           (reference "R68") (unit 1)
         )
@@ -1279,7 +1270,7 @@
     (property "Value" "470uF" (at 118.11 43.18 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" (at 125.4252 44.45 0)
+    (property "Footprint" "Capacitor_THT:C_Radial_D10.0mm_H20.0mm_P5.00mm" (at 125.4252 44.45 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 124.46 40.64 0)
@@ -1289,9 +1280,6 @@
     (pin "2" (uuid 35b5ddeb-618a-49e0-8075-27cfbc69ba62))
     (instances
       (project "fred_v3"
-        (path "/210292b2-d6ba-424c-bd40-e4a2be18eb8d/b54a5b77-6097-4562-9836-27b2c01ae506/1f51abab-264b-467c-bacd-a2396a60d8b6"
-          (reference "C45") (unit 1)
-        )
         (path "/210292b2-d6ba-424c-bd40-e4a2be18eb8d/b54a5b77-6097-4562-9836-27b2c01ae506/e2cd467c-70f1-48ce-b8c1-db1b74e6bb23"
           (reference "C51") (unit 1)
         )
@@ -1318,9 +1306,6 @@
     (pin "2" (uuid 11e81671-3b82-421e-aa01-db768eee2d1f))
     (instances
       (project "fred_v3"
-        (path "/210292b2-d6ba-424c-bd40-e4a2be18eb8d/b54a5b77-6097-4562-9836-27b2c01ae506/1f51abab-264b-467c-bacd-a2396a60d8b6"
-          (reference "R53") (unit 1)
-        )
         (path "/210292b2-d6ba-424c-bd40-e4a2be18eb8d/b54a5b77-6097-4562-9836-27b2c01ae506/e2cd467c-70f1-48ce-b8c1-db1b74e6bb23"
           (reference "R69") (unit 1)
         )
@@ -1347,9 +1332,6 @@
     (pin "2" (uuid daaee257-372e-442d-8bf8-3ff4583ccf2a))
     (instances
       (project "fred_v3"
-        (path "/210292b2-d6ba-424c-bd40-e4a2be18eb8d/b54a5b77-6097-4562-9836-27b2c01ae506/1f51abab-264b-467c-bacd-a2396a60d8b6"
-          (reference "D17") (unit 1)
-        )
         (path "/210292b2-d6ba-424c-bd40-e4a2be18eb8d/b54a5b77-6097-4562-9836-27b2c01ae506/e2cd467c-70f1-48ce-b8c1-db1b74e6bb23"
           (reference "D19") (unit 1)
         )
@@ -1366,7 +1348,7 @@
     (property "Value" "470uF" (at 226.06 43.18 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" (at 233.3752 44.45 0)
+    (property "Footprint" "Capacitor_THT:C_Radial_D10.0mm_H20.0mm_P5.00mm" (at 233.3752 44.45 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 232.41 40.64 0)
@@ -1376,9 +1358,6 @@
     (pin "2" (uuid d1167583-727f-47a3-98ea-f97742a1fb76))
     (instances
       (project "fred_v3"
-        (path "/210292b2-d6ba-424c-bd40-e4a2be18eb8d/b54a5b77-6097-4562-9836-27b2c01ae506/1f51abab-264b-467c-bacd-a2396a60d8b6"
-          (reference "C48") (unit 1)
-        )
         (path "/210292b2-d6ba-424c-bd40-e4a2be18eb8d/b54a5b77-6097-4562-9836-27b2c01ae506/e2cd467c-70f1-48ce-b8c1-db1b74e6bb23"
           (reference "C54") (unit 1)
         )
@@ -1405,9 +1384,6 @@
     (pin "2" (uuid 0a3c857c-e268-4879-9d20-551cd19cfcc5))
     (instances
       (project "fred_v3"
-        (path "/210292b2-d6ba-424c-bd40-e4a2be18eb8d/b54a5b77-6097-4562-9836-27b2c01ae506/1f51abab-264b-467c-bacd-a2396a60d8b6"
-          (reference "R56") (unit 1)
-        )
         (path "/210292b2-d6ba-424c-bd40-e4a2be18eb8d/b54a5b77-6097-4562-9836-27b2c01ae506/e2cd467c-70f1-48ce-b8c1-db1b74e6bb23"
           (reference "R64") (unit 1)
         )
@@ -1434,9 +1410,6 @@
     (pin "2" (uuid 4e8c0ae9-410d-4efb-8e03-fb13d5a42d8a))
     (instances
       (project "fred_v3"
-        (path "/210292b2-d6ba-424c-bd40-e4a2be18eb8d/b54a5b77-6097-4562-9836-27b2c01ae506/1f51abab-264b-467c-bacd-a2396a60d8b6"
-          (reference "R50") (unit 1)
-        )
         (path "/210292b2-d6ba-424c-bd40-e4a2be18eb8d/b54a5b77-6097-4562-9836-27b2c01ae506/e2cd467c-70f1-48ce-b8c1-db1b74e6bb23"
           (reference "R65") (unit 1)
         )
@@ -1453,7 +1426,7 @@
     (property "Value" "470uF" (at 208.28 43.18 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" (at 215.5952 44.45 0)
+    (property "Footprint" "Capacitor_THT:C_Radial_D10.0mm_H20.0mm_P5.00mm" (at 215.5952 44.45 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 214.63 40.64 0)
@@ -1463,9 +1436,6 @@
     (pin "2" (uuid 89d9940d-a87e-4ec2-b405-89ac1c62735b))
     (instances
       (project "fred_v3"
-        (path "/210292b2-d6ba-424c-bd40-e4a2be18eb8d/b54a5b77-6097-4562-9836-27b2c01ae506/1f51abab-264b-467c-bacd-a2396a60d8b6"
-          (reference "C46") (unit 1)
-        )
         (path "/210292b2-d6ba-424c-bd40-e4a2be18eb8d/b54a5b77-6097-4562-9836-27b2c01ae506/e2cd467c-70f1-48ce-b8c1-db1b74e6bb23"
           (reference "C52") (unit 1)
         )
@@ -1482,7 +1452,7 @@
     (property "Value" "470uF" (at 217.17 43.18 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" (at 224.4852 44.45 0)
+    (property "Footprint" "Capacitor_THT:C_Radial_D10.0mm_H20.0mm_P5.00mm" (at 224.4852 44.45 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 223.52 40.64 0)
@@ -1492,9 +1462,6 @@
     (pin "2" (uuid 9b2b3dfb-1554-464a-aacb-e9069a828c3b))
     (instances
       (project "fred_v3"
-        (path "/210292b2-d6ba-424c-bd40-e4a2be18eb8d/b54a5b77-6097-4562-9836-27b2c01ae506/1f51abab-264b-467c-bacd-a2396a60d8b6"
-          (reference "C47") (unit 1)
-        )
         (path "/210292b2-d6ba-424c-bd40-e4a2be18eb8d/b54a5b77-6097-4562-9836-27b2c01ae506/e2cd467c-70f1-48ce-b8c1-db1b74e6bb23"
           (reference "C53") (unit 1)
         )
@@ -1521,9 +1488,6 @@
     (pin "2" (uuid 2dab6b38-b786-4e77-9084-2b81797c307d))
     (instances
       (project "fred_v3"
-        (path "/210292b2-d6ba-424c-bd40-e4a2be18eb8d/b54a5b77-6097-4562-9836-27b2c01ae506/1f51abab-264b-467c-bacd-a2396a60d8b6"
-          (reference "R55") (unit 1)
-        )
         (path "/210292b2-d6ba-424c-bd40-e4a2be18eb8d/b54a5b77-6097-4562-9836-27b2c01ae506/e2cd467c-70f1-48ce-b8c1-db1b74e6bb23"
           (reference "R63") (unit 1)
         )
@@ -1550,9 +1514,6 @@
     (pin "2" (uuid faff97ec-f8c9-4af3-9d96-a9e2856fdc8b))
     (instances
       (project "fred_v3"
-        (path "/210292b2-d6ba-424c-bd40-e4a2be18eb8d/b54a5b77-6097-4562-9836-27b2c01ae506/1f51abab-264b-467c-bacd-a2396a60d8b6"
-          (reference "R57") (unit 1)
-        )
         (path "/210292b2-d6ba-424c-bd40-e4a2be18eb8d/b54a5b77-6097-4562-9836-27b2c01ae506/e2cd467c-70f1-48ce-b8c1-db1b74e6bb23"
           (reference "R62") (unit 1)
         )
@@ -1579,9 +1540,6 @@
     (pin "2" (uuid 3d8b21e6-c21b-4cfd-bf22-21b04a2802ea))
     (instances
       (project "fred_v3"
-        (path "/210292b2-d6ba-424c-bd40-e4a2be18eb8d/b54a5b77-6097-4562-9836-27b2c01ae506/1f51abab-264b-467c-bacd-a2396a60d8b6"
-          (reference "D16") (unit 1)
-        )
         (path "/210292b2-d6ba-424c-bd40-e4a2be18eb8d/b54a5b77-6097-4562-9836-27b2c01ae506/e2cd467c-70f1-48ce-b8c1-db1b74e6bb23"
           (reference "D18") (unit 1)
         )
@@ -1608,9 +1566,6 @@
     (pin "2" (uuid da363727-16e4-4387-912e-6384cba91fbc))
     (instances
       (project "fred_v3"
-        (path "/210292b2-d6ba-424c-bd40-e4a2be18eb8d/b54a5b77-6097-4562-9836-27b2c01ae506/1f51abab-264b-467c-bacd-a2396a60d8b6"
-          (reference "R49") (unit 1)
-        )
         (path "/210292b2-d6ba-424c-bd40-e4a2be18eb8d/b54a5b77-6097-4562-9836-27b2c01ae506/e2cd467c-70f1-48ce-b8c1-db1b74e6bb23"
           (reference "R61") (unit 1)
         )
@@ -1627,7 +1582,7 @@
     (property "Value" "470uF" (at 109.22 43.18 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" (at 116.5352 44.45 0)
+    (property "Footprint" "Capacitor_THT:C_Radial_D10.0mm_H20.0mm_P5.00mm" (at 116.5352 44.45 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 115.57 40.64 0)
@@ -1637,9 +1592,6 @@
     (pin "2" (uuid 8cfe58fe-a869-449d-a4f7-8e8f772adf80))
     (instances
       (project "fred_v3"
-        (path "/210292b2-d6ba-424c-bd40-e4a2be18eb8d/b54a5b77-6097-4562-9836-27b2c01ae506/1f51abab-264b-467c-bacd-a2396a60d8b6"
-          (reference "C44") (unit 1)
-        )
         (path "/210292b2-d6ba-424c-bd40-e4a2be18eb8d/b54a5b77-6097-4562-9836-27b2c01ae506/e2cd467c-70f1-48ce-b8c1-db1b74e6bb23"
           (reference "C50") (unit 1)
         )
@@ -1666,9 +1618,6 @@
     (pin "2" (uuid 60054f16-2433-4fac-a1df-cea31244babe))
     (instances
       (project "fred_v3"
-        (path "/210292b2-d6ba-424c-bd40-e4a2be18eb8d/b54a5b77-6097-4562-9836-27b2c01ae506/1f51abab-264b-467c-bacd-a2396a60d8b6"
-          (reference "R51") (unit 1)
-        )
         (path "/210292b2-d6ba-424c-bd40-e4a2be18eb8d/b54a5b77-6097-4562-9836-27b2c01ae506/e2cd467c-70f1-48ce-b8c1-db1b74e6bb23"
           (reference "R66") (unit 1)
         )
@@ -1695,9 +1644,6 @@
     (pin "2" (uuid 82e61e94-685c-4d85-9131-73f0ead5a547))
     (instances
       (project "fred_v3"
-        (path "/210292b2-d6ba-424c-bd40-e4a2be18eb8d/b54a5b77-6097-4562-9836-27b2c01ae506/1f51abab-264b-467c-bacd-a2396a60d8b6"
-          (reference "R48") (unit 1)
-        )
         (path "/210292b2-d6ba-424c-bd40-e4a2be18eb8d/b54a5b77-6097-4562-9836-27b2c01ae506/e2cd467c-70f1-48ce-b8c1-db1b74e6bb23"
           (reference "R60") (unit 1)
         )
@@ -1756,9 +1702,6 @@
     (instances
       (project "fred_v3"
         (path "/210292b2-d6ba-424c-bd40-e4a2be18eb8d/b54a5b77-6097-4562-9836-27b2c01ae506"
-          (reference "U16") (unit 1)
-        )
-        (path "/210292b2-d6ba-424c-bd40-e4a2be18eb8d/b54a5b77-6097-4562-9836-27b2c01ae506/1f51abab-264b-467c-bacd-a2396a60d8b6"
           (reference "U16") (unit 1)
         )
         (path "/210292b2-d6ba-424c-bd40-e4a2be18eb8d/b54a5b77-6097-4562-9836-27b2c01ae506/e2cd467c-70f1-48ce-b8c1-db1b74e6bb23"
